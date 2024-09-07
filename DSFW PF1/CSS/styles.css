@@ -1,0 +1,78 @@
+body {
+  background-color:rgb(249, 249, 237);
+  }
+h1 {
+  color:aqua; 
+  font-size:50px;
+  text-align:center; 
+}
+div {
+  background-color:rgb(241, 214, 234); 
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h2 {
+  color:black; 
+  font: size 35px;
+  text-align:center; 
+}
+h3 {
+  color:rgb(0, 136, 255); 
+  font-size:25px;
+  text-align:center; 
+}
+  
+h3.enlace {
+  border: 5px solid #040404;
+  margin-left: 15%;
+  margin-right: 15%;
+  /*acá hubiera querido que se incluyera la línea de la dirección web dentro del borde, 
+  voy a ver si con más tiempo lo logro*/
+}
+
+.listas{
+  margin: 0;
+  padding: 5px;
+}
+
+article.listas{
+  background: bisque;
+  color: black;
+  padding: 10px;
+}
+
+ul.listas{
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background: bisque;
+}
+        
+ td, th {
+  border: 1px solid #2a59e7;
+  text-align: left;
+  padding: 8px;
+ }
+        
+ tr:nth-child(even) {
+  background-color: #dddddd;
+ }
+ form {
+  font-family: calibri;   
+  background-color: aquamarine; 
+  width: 14%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.form {
+  background-color: rgb(210, 248, 23); 
+}
+     
+/*No se si se podría haber abreviado el CSS, hubo cosas que me costó hacer*/

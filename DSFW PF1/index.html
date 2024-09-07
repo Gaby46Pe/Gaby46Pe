@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PF1-Página de GAP</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <main>
+        <h1><center>Primer página de GAP</h1></center>
+        <div>
+        <h2><center>(Vamos a ver cómo sale este intento)</center></h2>
+            <!-- No sé si está bien haber puesto un h2 o hubiera sido mejor un párrafo-->
+        </div>
+        <br>
+        <center><img src="img/20 a.jpg" alt="Mi Logo" width="" height="90"></center>
+        <br>
+        <h3 class="enlace">Para incorporar más conocimientos en Programación, podés visitar:</h3>
+        <a href="https://www.w3schools.com/"><center>Visit W3Schools.com!</center></a>
+        <!-- Le había puesto class="enlace", pero en CSS, cuando ponía "h3.enlace, a.enlace", no me tomaba los dos-->
+        <br>
+       <h3><u> Tabla sobre tecnologías y hobbies</u></h3>   
+    <table>
+        <tr>
+            <th>Tecnologías que conozco</th>
+            <th>Tecnologías que quisiera conocer</th>
+            <th>Hobbies</th>
+        </tr>
+        <tr>
+            <td>Idiomas</td>
+            <td>Computación en la Nube</td>
+            <td>Viajar</td>
+        </tr>
+        <tr>
+            <td>Software</td>
+            <td>Impresión 3D</td>
+            <td>Nadar</td>
+        </tr>
+        <tr>
+            <td> Comunicación</td>
+            <td>Realidad Virtual</td>
+            <td>Jugar</td>
+        </tr>
+    </table>
+    <h3> <u>Formulario HTML </u></h3>
+
+        <form action="/action_page.php">
+            <!-- Si hace clic en el botón "Enviar", los datos del formulario se enviarán 
+            a una página llamada "/action_page.php" pero acá no está configurada-->
+        <label for="nombre"><b>Nombre:</b></label><br>
+        <input type="text" id="fname" name="nombre"><br>
+        <label for="apellido"><b>Apellido:</b></label><br>
+        <input type="text" id="lname" name="apellido"><br>
+        <label for="email"><b>Email:</b></label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="telefono"><b>Teléfono:</b></label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+        <input type="submit" value="Enviar">
+        </form> 
+        <br>
+        <br>
+    <article class="listas">
+        <h3> <u>Vamos a probar Listas </u></h3>
+        
+            <ul id="desordenada">    
+                <li>Primera A</li>
+                <li>B Nacional</li>
+                <li>B Metro</li>
+                <li>C</li>
+                <li>D</li>
+            </ul>
+     </article>
+    <section>
+        <h4>
+            <p style="color: rgb(0, 136, 255); font-size:25px;text-align:center"><u>Y un checkbox</u></p>
+                
+            </p>
+            <img src="img/46.jpg" alt="Moto" width="" height="90">
+            <img src="img/93.jpg" alt="Moto" width="" height="90">
+            <p>Elegí tu corredor favorito:</p>
+
+            
+            <input type="radio" id="vr46" name="fav_rider" value="VR46">
+            <label for="vr46">VR46</label><br>
+            <input type="radio" id="mm93" name="fav_rider" value="MM93">
+            <label for="mm93">MM93</label><br>
+        </h4>
+     
+    </section>
+
+</main>
+</body>
+</html>
